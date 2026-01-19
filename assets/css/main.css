@@ -25,10 +25,6 @@ a:hover {
     text-decoration: none;
 }
 
-/*=================== General rules =========================*/
-
-/*=================== General rules =========================*/
-
 /*=================== Header rules =========================*/
 .header-top {
     background-color: #6B0E8C;
@@ -52,3 +48,15 @@ a:hover {
 }
 
 /*=================== Header rules =========================*/
+
+.purchasem {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.purchasem:hover {
+
+    overflow: visible;
+}
