@@ -17,12 +17,20 @@ body {
     color: var(--text-color);
 }
 
+main {
+    padding-top: 1rem;
+}
+
 a {
     text-decoration: underline;
 }
 
 a:hover {
     text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
 }
 
 /*=================== Header rules =========================*/
@@ -49,14 +57,24 @@ a:hover {
 
 /*=================== Header rules =========================*/
 
+/*=================== warning rules =========================*/
+
+.warning {
+    background-color: var(--bg-color)
+}
+
 .purchasem {
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
-.purchasem:hover {
-
-    overflow: visible;
+.delivery {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
+
+/*=================== warning rules =========================*/
