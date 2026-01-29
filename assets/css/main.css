@@ -5,11 +5,6 @@
     --contrast-color: #3d464d;
 }
 
-html,
-body {
-    height: 100%;
-}
-
 body {
     min-width: 320px;
     font-family: "Roboto", sans-serif;
@@ -60,7 +55,7 @@ p {
 /*=================== warning =========================*/
 
 .warning {
-    background-color: var(--bg-color)
+    background-color: var(--bg-color);
 }
 
 .purchasem {
@@ -70,11 +65,21 @@ p {
     overflow: hidden;
 }
 
+.purchasem:hover {
+    display: unset;
+    overflow: visible;
+}
+
 .delivery {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+
+.delivery:hover {
+    display: unset;
+    overflow: visible;
 }
 
 /*=================== warning =========================*/
